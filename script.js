@@ -159,14 +159,14 @@ function displayWeeklyForecast(dailyForecasts) {
             imageSrc = 'cloud.png';
             break;
           default:
-            imageSrc = 'sunny.png';
+            imageSrc = 'default.png';
             break;
         }
 
         weekImgElement.src = imageSrc;
         weekTempElement.innerHTML = `${temp}°C`;
       } else {
-        weekImgElement.src = 'sunny.png';
+        weekImgElement.src = 'default.png';
         weekTempElement.innerHTML = '--';
       }
     }
