@@ -229,7 +229,7 @@ function getweather(lat, lon) {
             imageSrc = 'cloud.png';
             break;
           default:
-            imageSrc = 'sunny.png';
+            imageSrc = 'default.png';
             break;
         }
 
